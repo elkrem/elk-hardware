@@ -170,7 +170,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
-<fusionteam huburn="a.YnVzaW5lc3M6ZWxrcmVt" projecturn="a.YnVzaW5lc3M6ZWxrcmVtIzIwMTkwNTE0MTkzNzY0NjI2" folderUrn="urn:adsk.wipprod:fs.folder:co.U9XNDY5QRfqUZXJ892w5Yg" urn="urn:adsk.wipprod:dm.lineage:FdQPUJtxQbmN-6sV6-on_w"  versionUrn="urn:adsk.wipprod:fs.file:vf.FdQPUJtxQbmN-6sV6-on_w?version=2" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="486159d2-3dfa-844d-1c70-05aee61310eb"/>
+<fusionteam huburn="a.YnVzaW5lc3M6ZWxrcmVt" projecturn="a.YnVzaW5lc3M6ZWxrcmVtIzIwMTkwNTE0MTkzNzY0NjI2" folderUrn="urn:adsk.wipprod:fs.folder:co.U9XNDY5QRfqUZXJ892w5Yg" urn="urn:adsk.wipprod:dm.lineage:FdQPUJtxQbmN-6sV6-on_w"  versionUrn="urn:adsk.wipprod:fs.file:vf.FdQPUJtxQbmN-6sV6-on_w?version=3" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="ea367d27-b462-5b9c-fa06-0a7b86f7c138"/>
 <libraries>
 <library name="frames" urn="urn:adsk.eagle:library:229">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
