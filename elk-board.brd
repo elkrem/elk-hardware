@@ -9,9 +9,9 @@
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND1" color="62" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="GND1" color="62" fill="1" visible="no" active="yes"/>
 <layer number="3" name="SIG1_RAM" color="42" fill="1" visible="no" active="yes"/>
-<layer number="4" name="GND2" color="63" fill="1" visible="yes" active="yes"/>
+<layer number="4" name="GND2" color="63" fill="1" visible="no" active="yes"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
 <layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
 <layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
@@ -20,10 +20,10 @@
 <layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
 <layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="PWR" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="13" name="PWR" color="16" fill="1" visible="no" active="yes"/>
 <layer number="14" name="SIG2_RAM" color="22" fill="1" visible="no" active="yes"/>
-<layer number="15" name="GND3" color="21" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="GND3" color="21" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -31,7 +31,7 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -5707,16 +5707,16 @@ design rules under a new name.</description>
 <element name="L2" library="Nordic_nRF" package="RESC0402_L" package3d_urn="urn:adsk.eagle:package:2593728/1" value="3.9nH" x="53.94325" y="6.86435" smashed="yes" rot="R270">
 <attribute name="NAME" x="53.92725" y="5.52755" size="0.6096" layer="138" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="ANT1" library="AMCA31-2R450G-S1F-T3" package="ANTC3216X140N" value="AMCA31-2R450G-S1F-T3" x="53.0987" y="2.49555" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="ABRACON - AMCA31-2R450G-S1F-T3 - ANTENNA, CHIP, 2.45GHZ, 50 OHM, 1206" x="53.0987" y="2.49555" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1.4mm" x="53.0987" y="2.49555" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ABRACON" x="53.0987" y="2.49555" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AMCA31-2R450G-S1F-T3" x="53.0987" y="2.49555" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="815-CA312R450GS1FT3" x="53.0987" y="2.49555" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=815-CA312R450GS1FT3" x="53.0987" y="2.49555" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="51.7017" y="2.49555" size="0.6096" layer="138" rot="R270" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="53.0987" y="2.49555" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="53.0987" y="2.49555" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="ANT1" library="AMCA31-2R450G-S1F-T3" package="ANTC3216X140N" value="AMCA31-2R450G-S1F-T3" x="53.3019" y="2.62255" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="ABRACON - AMCA31-2R450G-S1F-T3 - ANTENNA, CHIP, 2.45GHZ, 50 OHM, 1206" x="53.3019" y="2.62255" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1.4mm" x="53.3019" y="2.62255" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ABRACON" x="53.3019" y="2.62255" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AMCA31-2R450G-S1F-T3" x="53.3019" y="2.62255" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="815-CA312R450GS1FT3" x="53.3019" y="2.62255" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=815-CA312R450GS1FT3" x="53.3019" y="2.62255" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="51.9049" y="2.62255" size="0.6096" layer="138" rot="R270" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="53.3019" y="2.62255" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="53.3019" y="2.62255" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C27" library="GHI-BasicComponents" package="0402" value="" x="52.73675" y="6.3627" smashed="yes">
 <attribute name="NAME" x="51.21275" y="6.1327" size="0.6096" layer="138" font="vector" ratio="15" align="bottom-center"/>
@@ -12295,8 +12295,8 @@ design rules under a new name.</description>
 <wire x1="53.2384" y1="6.36435" x2="53.94325" y2="6.36435" width="0.193040625" layer="1"/>
 <wire x1="53.94325" y1="6.36435" x2="53.8988" y2="6.3199" width="0.193040625" layer="1"/>
 <wire x1="53.8988" y1="6.3199" x2="53.8988" y2="4.41465" width="0.193040625" layer="1"/>
-<wire x1="53.8988" y1="4.41465" x2="53.4797" y2="3.99555" width="0.193040625" layer="1"/>
-<wire x1="53.4797" y1="3.99555" x2="53.0987" y2="3.99555" width="0.193040625" layer="1"/>
+<wire x1="53.8988" y1="4.41465" x2="53.6067" y2="4.12255" width="0.193040625" layer="1"/>
+<wire x1="53.6067" y1="4.12255" x2="53.3019" y2="4.12255" width="0.193040625" layer="1"/>
 </signal>
 <signal name="N$27">
 <via x="52.705" y="5.207" extent="1-16" drill="0.2"/>
