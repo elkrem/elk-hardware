@@ -5225,7 +5225,7 @@ design rules under a new name.</description>
 <element name="C37" library="GHI-BasicComponents" package="0402" value="100nF" x="18.47135" y="16.289" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.54915" y="17.686" size="0.6096" layer="138" font="vector" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="IC4" library="K4B4G1646B-BCK0" package="BGA96C80P9X16_1000X1330X120" value="K4B4G1646B-BCK0" x="22.8" y="15.4" smashed="yes" rot="MR180">
+<element name="IC4" library="K4B4G1646B-BCK0" package="BGA96C80P9X16_1000X1330X120" value="K4B4G1646D-BCK0" x="22.8" y="15.4" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="4Gb B-die DDR3 SDRAM" x="82.49" y="23.02" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="1.2mm" x="82.49" y="23.02" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Samsung" x="82.49" y="23.02" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -6833,6 +6833,7 @@ design rules under a new name.</description>
 <via x="0.4826" y="6.1722" extent="1-16" drill="0.2"/>
 <via x="0.4826" y="4.1402" extent="1-16" drill="0.2"/>
 <via x="51.714" y="10.0584" extent="1-16" drill="0.2"/>
+<via x="51.206" y="9.1694" extent="1-16" drill="0.2"/>
 </signal>
 <signal name="N$1" class="9">
 <contactref element="R9" pad="1"/>

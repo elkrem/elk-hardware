@@ -6840,7 +6840,7 @@ IPC Nominal Density</description>
 <part name="R11" library="GHI-BasicComponents" deviceset="RESISTOR-(INCH)-" device="0402" value="100K ohm"/>
 <part name="R8" library="GHI-BasicComponents" deviceset="RESISTOR-(INCH)-" device="0402" value="100K ohm"/>
 <part name="FRAME11" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="IC4" library="K4B4G1646B-BCK0" deviceset="K4B4G1646B-BCK0" device=""/>
+<part name="IC4" library="K4B4G1646B-BCK0" deviceset="K4B4G1646B-BCK0" device="" value="K4B4G1646D-BCK0"/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R27" library="GHI-BasicComponents" deviceset="RESISTOR-(INCH)-" device="0402" value="240 ohm / 1%"/>
 <part name="GND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7183,7 +7183,7 @@ IPC Nominal Density</description>
 <sheets>
 <sheet>
 <plain>
-<text x="93.98" y="162.56" size="6.4516" layer="97">WiFi Module - AP6181</text>
+<text x="93.98" y="162.56" size="6.4516" layer="97">WiFi Module - AP6212</text>
 <text x="444.5" y="162.56" size="6.4516" layer="97">DDR3 RAM</text>
 <text x="393.7" y="885.19" size="5.08" layer="97" align="bottom-center">MCU Voltage Regulator 3.3V /1A</text>
 <text x="435.61" y="342.265" size="5.08" layer="97">Decoupling Capacitors</text>
