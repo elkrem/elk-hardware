@@ -6891,7 +6891,7 @@ IPC Nominal Density</description>
 <part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="FRAME10" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="FRAME15" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="R37" library="GHI-BasicComponents" deviceset="RESISTOR-(INCH)-" device="0402" value="1K ohm"/>
+<part name="R37" library="GHI-BasicComponents" deviceset="RESISTOR-(INCH)-" device="0402" value="1.5K ohm"/>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
 <part name="C58" library="GHI-BasicComponents" deviceset="CAPACITOR-(INCH)-" device="0402" value="100nF"/>
 <part name="C67" library="GHI-BasicComponents" deviceset="CAPACITOR-(INCH)-" device="0402" value="1uF"/>
@@ -7075,7 +7075,6 @@ IPC Nominal Density</description>
 <part name="VIN3" library="microbuilder" deviceset="VIN" device=""/>
 <part name="R21" library="GHI-BasicComponents" deviceset="RESISTOR-(INCH)-" device="0402" value="10K ohm"/>
 <part name="3.3V5" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="3.3V12" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="3.3V7" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="3.3V14" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="3.3V13" library="microbuilder" deviceset="3.3V" device=""/>
@@ -7092,7 +7091,7 @@ IPC Nominal Density</description>
 <part name="3.3V1" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="3.3V6" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="LED3" library="GHI-BasicComponents" deviceset="LED-(INCH)-" device="0603" value="BLUE"/>
-<part name="R42" library="GHI-BasicComponents" deviceset="RESISTOR-(INCH)-" device="0402" value="1K ohm"/>
+<part name="R42" library="GHI-BasicComponents" deviceset="RESISTOR-(INCH)-" device="0402" value="1.5K ohm"/>
 <part name="GND83" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="GHI-BasicComponents" deviceset="CAPACITOR-(INCH)-" device="0402" value="100nF"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7103,7 +7102,7 @@ IPC Nominal Density</description>
 <part name="GND80" library="supply1" deviceset="GND" device=""/>
 <part name="S1" library="Spark" deviceset="TAC_SWITCH" device="SMD" value="KMR231GLFS"/>
 <part name="LED2" library="GHI-BasicComponents" deviceset="LED-(INCH)-" device="0603" value="RED"/>
-<part name="R41" library="GHI-BasicComponents" deviceset="RESISTOR-(INCH)-" device="0402" value="1K ohm"/>
+<part name="R41" library="GHI-BasicComponents" deviceset="RESISTOR-(INCH)-" device="0402" value="1.5K ohm"/>
 <part name="GND82" library="supply1" deviceset="GND" device=""/>
 <part name="3.3V24" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="R31" library="GHI-BasicComponents" deviceset="RESISTOR-(INCH)-" device="0402" value="10K ohm"/>
@@ -7179,6 +7178,7 @@ IPC Nominal Density</description>
 <part name="ANT1" library="AMCA31-2R450G-S1F-T3" deviceset="AMCA31-2R450G-S1F-T3" device=""/>
 <part name="C27" library="GHI-BasicComponents" deviceset="CAPACITOR-(INCH)-" device="0402"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND98" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8242,21 +8242,18 @@ GPIOL6/CPUX-VSET = 1, VDD-CPUX=1.3V</text>
 <instance part="GND39" gate="1" x="322.58" y="817.245" smashed="yes">
 <attribute name="VALUE" x="320.04" y="814.705" size="1.778" layer="96"/>
 </instance>
-<instance part="GND43" gate="1" x="358.14" y="822.325" smashed="yes">
-<attribute name="VALUE" x="355.6" y="819.785" size="1.778" layer="96"/>
+<instance part="GND43" gate="1" x="358.14" y="824.865" smashed="yes">
+<attribute name="VALUE" x="355.6" y="822.325" size="1.778" layer="96"/>
 </instance>
 <instance part="VIN3" gate="G$1" x="322.58" y="843.28" smashed="yes">
 <attribute name="VALUE" x="321.056" y="844.296" size="1.27" layer="96"/>
 </instance>
-<instance part="R21" gate="G$1" x="353.06" y="845.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="351.028" y="843.28" size="1.27" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="356.235" y="843.28" size="1.27" layer="96" font="vector" rot="R90"/>
+<instance part="R21" gate="G$1" x="353.06" y="815.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="355.092" y="817.88" size="1.27" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="349.885" y="817.88" size="1.27" layer="96" font="vector" rot="R270"/>
 </instance>
 <instance part="3.3V5" gate="G$1" x="63.5" y="838.2" smashed="yes">
 <attribute name="VALUE" x="61.976" y="839.216" size="1.27" layer="96"/>
-</instance>
-<instance part="3.3V12" gate="G$1" x="353.06" y="858.52" smashed="yes">
-<attribute name="VALUE" x="351.536" y="859.536" size="1.27" layer="96"/>
 </instance>
 <instance part="3.3V7" gate="G$1" x="114.3" y="635" smashed="yes">
 <attribute name="VALUE" x="112.776" y="636.016" size="1.27" layer="96"/>
@@ -8612,6 +8609,9 @@ GPIOL6/CPUX-VSET = 1, VDD-CPUX=1.3V</text>
 </instance>
 <instance part="GND24" gate="1" x="200.66" y="129.54" smashed="yes">
 <attribute name="VALUE" x="198.12" y="127" size="1.778" layer="96"/>
+</instance>
+<instance part="GND98" gate="1" x="353.06" y="804.545" smashed="yes">
+<attribute name="VALUE" x="350.52" y="802.005" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9431,7 +9431,7 @@ GPIOL6/CPUX-VSET = 1, VDD-CPUX=1.3V</text>
 <pinref part="IC5" gate="G$1" pin="GND"/>
 <pinref part="GND43" gate="1" pin="GND"/>
 <wire x1="360.68" y1="830.58" x2="358.14" y2="830.58" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="830.58" x2="358.14" y2="824.865" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="830.58" x2="358.14" y2="827.405" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R42" gate="G$1" pin="2"/>
@@ -9752,6 +9752,11 @@ GPIOL6/CPUX-VSET = 1, VDD-CPUX=1.3V</text>
 <pinref part="GND24" gate="1" pin="GND"/>
 <pinref part="C27" gate="G$1" pin="P$1"/>
 <wire x1="200.66" y1="132.08" x2="200.66" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND98" gate="1" pin="GND"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="353.06" y1="807.085" x2="353.06" y2="810.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="9">
@@ -10677,11 +10682,6 @@ GPIOL6/CPUX-VSET = 1, VDD-CPUX=1.3V</text>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="828.04" x2="63.5" y2="835.66" width="0.1524" layer="91"/>
 <pinref part="3.3V5" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
-<pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="353.06" y1="850.9" x2="353.06" y2="855.98" width="0.1524" layer="91"/>
-<pinref part="3.3V12" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$6" pin="VCC_IO0"/>
@@ -12376,11 +12376,11 @@ GPIOL6/CPUX-VSET = 1, VDD-CPUX=1.3V</text>
 <pinref part="R21" gate="G$1" pin="1"/>
 <pinref part="IC5" gate="G$1" pin="EN"/>
 <wire x1="360.68" y1="833.12" x2="353.06" y2="833.12" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="833.12" x2="353.06" y2="840.74" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="833.12" x2="353.06" y2="805.18" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="833.12" x2="353.06" y2="820.42" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="833.12" x2="353.06" y2="845.82" width="0.1524" layer="91"/>
 <junction x="353.06" y="833.12"/>
-<wire x1="353.06" y1="805.18" x2="335.28" y2="805.18" width="0.1524" layer="91"/>
-<label x="335.28" y="805.18" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="353.06" y1="845.82" x2="340.36" y2="845.82" width="0.1524" layer="91"/>
+<label x="340.36" y="845.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PD1/RGMII_RXD2/MII_RXD2/RMII_NULL/DI_RX"/>
