@@ -11569,7 +11569,7 @@ GPIOL6/CPUX-VSET = 1, VDD-CPUX=1.3V</text>
 <junction x="78.74" y="812.8"/>
 </segment>
 </net>
-<net name="USB0" class="7">
+<net name="USB0_P" class="7">
 <segment>
 <pinref part="IC2" gate="G$7" pin="USB_DP0"/>
 <wire x1="307.34" y1="482.6" x2="302.26" y2="482.6" width="0.1524" layer="91"/>
