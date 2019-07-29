@@ -6654,7 +6654,7 @@ IPC Nominal Density</description>
 <clearance class="5" value="0.3048"/>
 <clearance class="6" value="0.127"/>
 </class>
-<class number="7" name="DIFF90" width="0.115315625" drill="0">
+<class number="7" name="DIFF90" width="0.13461875" drill="0">
 <clearance class="0" value="0.3048"/>
 <clearance class="1" value="0.3048"/>
 <clearance class="2" value="0.3048"/>
@@ -6662,6 +6662,7 @@ IPC Nominal Density</description>
 <clearance class="4" value="0.3048"/>
 <clearance class="5" value="0.3048"/>
 <clearance class="6" value="0.3048"/>
+<clearance class="7" value="0.108965625"/>
 </class>
 <class number="8" name="SDC2" width="0" drill="0">
 <clearance class="5" value="0.3048"/>
@@ -11568,7 +11569,7 @@ GPIOL6/CPUX-VSET = 1, VDD-CPUX=1.3V</text>
 <junction x="78.74" y="812.8"/>
 </segment>
 </net>
-<net name="USB0_P" class="7">
+<net name="USB0" class="7">
 <segment>
 <pinref part="IC2" gate="G$7" pin="USB_DP0"/>
 <wire x1="307.34" y1="482.6" x2="302.26" y2="482.6" width="0.1524" layer="91"/>
