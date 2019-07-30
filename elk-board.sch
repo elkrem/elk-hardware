@@ -6637,22 +6637,22 @@ IPC Nominal Density</description>
 </class>
 <class number="4" name="DRAM_CONTROL" width="0" drill="0">
 </class>
-<class number="5" name="DRAM_CLOCK" width="0.108459375" drill="0">
+<class number="5" name="DRAM_CLOCK" width="0.1143" drill="0">
 <clearance class="0" value="0.3048"/>
 <clearance class="1" value="0.3048"/>
 <clearance class="2" value="0.3048"/>
 <clearance class="3" value="0.3048"/>
 <clearance class="4" value="0.3048"/>
-<clearance class="5" value="0.127"/>
+<clearance class="5" value="0.121159375"/>
 </class>
-<class number="6" name="DIFF100" width="0.1016" drill="0">
+<class number="6" name="DIFF100" width="0.1143" drill="0">
 <clearance class="0" value="0.3048"/>
 <clearance class="1" value="0.3048"/>
 <clearance class="2" value="0.3048"/>
 <clearance class="3" value="0.3048"/>
 <clearance class="4" value="0.3048"/>
 <clearance class="5" value="0.3048"/>
-<clearance class="6" value="0.127"/>
+<clearance class="6" value="0.121159375"/>
 </class>
 <class number="7" name="DIFF90" width="0.13461875" drill="0">
 <clearance class="0" value="0.3048"/>
